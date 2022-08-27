@@ -15,5 +15,22 @@ interface Post {
   slug: {
     current: string
   }
+  comments: Comment[]
   body: [object]
+}
+
+interface Comment {
+  comment: string
+  email: string
+  name: string
+  _createdAt: string
+  _id: string
+  approved: boolean
+}
+
+interface IFormInput {
+  _id: string
+  name: string
+  email: string
+  comment: string
 }
