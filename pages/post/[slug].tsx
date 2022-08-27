@@ -90,10 +90,9 @@ const Post: React.FC<Props> = ({ post }) => {
               <CommentCard key={comment._id} comment={comment} />
             ))}
           </div>
+          <Footer />
         </>
       )}
-
-      <Footer />
     </main>
   )
 }
