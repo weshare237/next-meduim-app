@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <Link href='/'>
           <img
             className='w-44 object-content cursor-pointer rounded-full'
-            src='Topicsy.png'
+            src='/Topicsy.png'
             alt=''
           />
         </Link>
